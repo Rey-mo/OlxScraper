@@ -33,3 +33,4 @@ class ElectronicsSpider(CrawlSpider):
         item['price'] = price
         item['url'] = response.url
         yield item
+        #
